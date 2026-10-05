@@ -1,6 +1,7 @@
 import json
 import redis
 from confluent_kafka import Consumer, KafkaException
+from Validation import is_valid
 
 config = {
     "bootstrap.servers": "localhost:9092",
@@ -39,6 +40,10 @@ try:
         if isinstance(alert, str):
             alert = json.loads(alert)
 
+        if not is_valid(alert):
+            print("Invalid alert")
+            consumer.commit(message=message, asynchronous=False)
+            continue
         event_id = alert.get("alert_id")
 
         saved = redis_client.set(

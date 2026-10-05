@@ -60,7 +60,7 @@ namespace NotificationGate
                 return;
             }
             string ready = e.FullPath.Replace(".ready",".json");
-            System.Console.WriteLine(ready);
+            Console.WriteLine(ready);
             if(!File.Exists(ready))
             {
                 Console.WriteLine("no");
@@ -69,7 +69,7 @@ namespace NotificationGate
             Console.WriteLine("yes");
             string folder = Path.GetDirectoryName(e.FullPath)!;
             string jsonPath = Path.Combine(folder, "alert.json");
-            System.Console.WriteLine(jsonPath);
+            Console.WriteLine(jsonPath);
             string content = File.ReadAllText(jsonPath);
             using JsonDocument json = JsonDocument.Parse(content);
             await _service.SendAsync(_alertsTopic, json.RootElement);
