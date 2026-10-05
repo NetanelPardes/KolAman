@@ -55,24 +55,36 @@ namespace NotificationGate
 
         private static async void OnChanged(object sender, FileSystemEventArgs e)
         {
-            if (e.ChangeType != WatcherChangeTypes.Changed)
+            try
             {
-                return;
+                if (e.ChangeType != WatcherChangeTypes.Changed)
+                {
+                    return;
+                }
+                string ready = e.FullPath.Replace(".ready",".json");
+                Console.WriteLine(ready);
+                if(!File.Exists(ready))
+                {
+                    Console.WriteLine("no");
+                    return;
+                }
+                Console.WriteLine("yes");
+                string folder = Path.GetDirectoryName(e.FullPath)!;
+                string jsonPath = Path.Combine(folder, "alert.json");
+                Console.WriteLine(jsonPath);
+                string content = File.ReadAllText(jsonPath);
+                using JsonDocument json = JsonDocument.Parse(content);
+                await _service.SendAsync(_alertsTopic, json.RootElement);
             }
-            string ready = e.FullPath.Replace(".ready",".json");
-            Console.WriteLine(ready);
-            if(!File.Exists(ready))
+            catch (JsonException ex)
             {
-                Console.WriteLine("no");
-                return;
+                Console.WriteLine($"Invalid JSON: {e.FullPath}");
+                Console.WriteLine(ex.Message);
             }
-            Console.WriteLine("yes");
-            string folder = Path.GetDirectoryName(e.FullPath)!;
-            string jsonPath = Path.Combine(folder, "alert.json");
-            Console.WriteLine(jsonPath);
-            string content = File.ReadAllText(jsonPath);
-            using JsonDocument json = JsonDocument.Parse(content);
-            await _service.SendAsync(_alertsTopic, json.RootElement);
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed: {ex.Message}");
+            }
         }
         private static void PrintException(Exception? ex)
         {
@@ -85,24 +97,32 @@ namespace NotificationGate
                 PrintException(ex.InnerException);
             }
         }
-        private static async void OnCreated(object sender, FileSystemEventArgs e)
+        private static async void OnCreated(object sender,FileSystemEventArgs e)
         {
-            string ready = e.FullPath.Replace(".ready",".json");
-            System.Console.WriteLine(ready);
-            if(!File.Exists(ready))
+            try
             {
-                Console.WriteLine("no");
-                return;
+                string folder = Path.GetDirectoryName(e.FullPath)!;
+                string readyPath = Path.Combine(folder, "alert.ready");
+                string jsonPath = Path.Combine(folder, "alert.json");
+                if (!File.Exists(readyPath) || !File.Exists(jsonPath))
+                {
+                    return;
+                }
+                string content = await File.ReadAllTextAsync(jsonPath);
+                using JsonDocument json = JsonDocument.Parse(content);
+                Console.WriteLine(json.RootElement);
+                await _service.SendAsync(_alertsTopic, json.RootElement);
+                Console.WriteLine($"Sent: {jsonPath}");
             }
-            Console.WriteLine("yes");
-            string folder = Path.GetDirectoryName(e.FullPath)!;
-            string jsonPath = Path.Combine(folder, "alert.json");
-            Console.WriteLine(jsonPath);
-            string content = File.ReadAllText(jsonPath);
-            System.Console.WriteLine(content);
-            using JsonDocument json = JsonDocument.Parse(content);
-            await _service.SendAsync(_alertsTopic, json.RootElement);
-
+            catch (JsonException ex)
+            {
+                Console.WriteLine($"Invalid JSON: {e.FullPath}");
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed: {ex.Message}");
+            }
         }
     }
 }

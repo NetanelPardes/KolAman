@@ -1,5 +1,7 @@
 from datetime import datetime
+import logging
 
+logger = logging.getLogger(__name__)
 
 def is_valid(alert):
 
@@ -9,6 +11,10 @@ def is_valid(alert):
     fields = ["alert_id","source","title","content","priority","classification","timestamp","status"]
 
     for field in fields:
+        if field not in alert:
+            print(f"{field} is missing")
+            return False
+        
         value = alert.get(field)
 
         if not isinstance(value, str) or not value.strip():
@@ -16,6 +22,7 @@ def is_valid(alert):
 
     if alert["source"] not in ["aman","mossad","pikud-haoref","shabak"]:
         print("source is: " + alert["source"])
+        logger.error(f"alert {alert['alert_id']} hava a problem with the source")
         return False
 
     if alert["priority"] not in ["LOW","MEDIUM","HIGH","CRITICAL"]:
@@ -33,12 +40,18 @@ def is_valid(alert):
     lat = alert.get("lat")
     lon = alert.get("lon")
 
+    if 'lat' not in alert:
+            print("lat is missing")
+            return False
     if type(lat) not in (int, float):
-        print("lat is: " + alert["lat"])
+        print("lat is: " + str(alert["lat"]))
         return False
 
+    if 'lon' not in alert:
+        print("lon is missing")
+        return False
     if type(lon) not in (int, float):
-        print("lon is: " + alert["lon"])
+        print("lon is: " + str(alert["lon"]))
         return False
 
     return True

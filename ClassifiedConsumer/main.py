@@ -2,6 +2,39 @@ import json
 import redis
 from confluent_kafka import Consumer, KafkaException
 from Validation import is_valid
+from shapely.geometry import Point, Polygon
+import geopandas as gpd
+from shapely.geometry import Point
+from rabbit_service import send_alert, close
+import logging
+from pathlib import Path
+
+Path("Logs").mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(
+            "Logs/Classified.log",
+            encoding="utf-8"
+        )
+    ]
+)
+logger = logging.getLogger(__name__)
+
+def get_region_with_geopandas(file_path: str, lon: float, lat: float) -> str:
+    gdf = gpd.read_file(file_path)
+    pt = Point(lon, lat)
+    matched = gdf[gdf.geometry.contains(pt)]
+    if not matched.empty:
+        return matched.iloc[0]["region"]
+    return "OVERSEAS"
+
+# region = get_region_with_geopandas("regions.geojson", 34.800, 32.100)
+# print(region)
 
 config = {
     "bootstrap.servers": "localhost:9092",
@@ -46,12 +79,13 @@ try:
             continue
         event_id = alert.get("alert_id")
 
-        saved = redis_client.set(
-            event_id,
-            json.dumps(alert, ensure_ascii=False),
-            nx=True,
-            ex=300
-        )
+        command = get_region_with_geopandas("regions.geojson", alert['lon'], alert['lat'])
+
+        alert["command"] = command
+        send_alert(alert, command)
+        consumer.commit(message=message, asynchronous=False)
+
+        saved = redis_client.set(event_id,json.dumps(alert, ensure_ascii=False),nx=True,ex=300)
 
         if saved:
             print(f"Saved to Redis: {event_id}")
@@ -66,3 +100,5 @@ except KeyboardInterrupt:
 finally:
     consumer.close()
     redis_client.close()
+    close()
+
