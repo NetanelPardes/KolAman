@@ -71,7 +71,8 @@ namespace NotificationGate
             string jsonPath = Path.Combine(folder, "alert.json");
             System.Console.WriteLine(jsonPath);
             string content = File.ReadAllText(jsonPath);
-            await _service.SendAsync(_alertsTopic,content);
+            using JsonDocument json = JsonDocument.Parse(content);
+            await _service.SendAsync(_alertsTopic, json.RootElement);
         }
         private static void PrintException(Exception? ex)
         {
@@ -98,10 +99,11 @@ namespace NotificationGate
             string jsonPath = Path.Combine(folder, "alert.json");
             Console.WriteLine(jsonPath);
             string content = File.ReadAllText(jsonPath);
-            await _service.SendAsync(_alertsTopic,content);
+            System.Console.WriteLine(content);
+            using JsonDocument json = JsonDocument.Parse(content);
+            await _service.SendAsync(_alertsTopic, json.RootElement);
 
         }
     }
 }
-
 

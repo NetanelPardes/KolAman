@@ -17,3 +17,8 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_LOG_DIRS: /tmp/kraft-combined-logs
       CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+  
+  redis:
+    image: redis:8.2-alpine
+    ports:
+      - "6379:6379"
