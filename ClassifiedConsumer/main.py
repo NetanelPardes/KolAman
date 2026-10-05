@@ -16,7 +16,6 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.StreamHandler(),
         logging.FileHandler(
             "Logs/Classified.log",
             encoding="utf-8"

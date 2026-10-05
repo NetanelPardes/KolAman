@@ -12,6 +12,8 @@
 dotnet add package Confluent.Kafka
 dotnet add package Microsoft.Extensions.Configuration.Json
 dotnet add package Microsoft.Extensions.DependencyInjection
+dotnet add package Serilog.Sinks.File
+dotnet add package Serilo
 ```
 
 ## ClassifiedConsumer
@@ -36,4 +38,7 @@ dotnet add package Microsoft.Extensions.DependencyInjection
 ```
 python -m pip install confluent-kafka
 python -m pip install redis
+python -m pip install pika
+python -m pip install shapely 
+python -m pip install geopandas
 ```

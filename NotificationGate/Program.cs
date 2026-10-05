@@ -6,6 +6,20 @@ using Confluent.Kafka;
 using NotificationGate.service;
 using Microsoft.Extensions.Configuration;
 
+using Serilog;
+
+Directory.CreateDirectory("Logs");
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.File(
+        "Logs/NotificationGate.log",
+        outputTemplate:
+            "{Timestamp:yyyy-MM-dd HH:mm:ss} | {Level:u3} | {Message:lj}{NewLine}{Exception}",
+        encoding: System.Text.Encoding.UTF8
+    )
+    .CreateLogger();
+
 
 namespace NotificationGate
 {
@@ -65,7 +79,7 @@ namespace NotificationGate
                 Console.WriteLine(ready);
                 if(!File.Exists(ready))
                 {
-                    Console.WriteLine("no");
+                    Log.Warning("this alert has no ready file");
                     return;
                 }
                 Console.WriteLine("yes");
@@ -104,8 +118,9 @@ namespace NotificationGate
                 string folder = Path.GetDirectoryName(e.FullPath)!;
                 string readyPath = Path.Combine(folder, "alert.ready");
                 string jsonPath = Path.Combine(folder, "alert.json");
-                if (!File.Exists(readyPath) || !File.Exists(jsonPath))
+                if (!File.Exists(jsonPath))
                 {
+                    Log.Error("this alert has no ready file");
                     return;
                 }
                 string content = await File.ReadAllTextAsync(jsonPath);
@@ -126,4 +141,5 @@ namespace NotificationGate
         }
     }
 }
+
 

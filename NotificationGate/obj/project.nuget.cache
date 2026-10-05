@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bT595joVLcw=",
+  "dgSpecHash": "tjXjxVfk2gE=",
   "success": true,
   "projectFilePath": "C:\\Users\\sendi\\Desktop\\KolAman\\NotificationGate\\NotificationGate.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\sendi\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.12\\microsoft.extensions.fileproviders.physical.10.0.12.nupkg.sha512",
     "C:\\Users\\sendi\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.12\\microsoft.extensions.filesystemglobbing.10.0.12.nupkg.sha512",
     "C:\\Users\\sendi\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512",
+    "C:\\Users\\sendi\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\sendi\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512",
     "C:\\Users\\sendi\\.nuget\\packages\\system.io.pipelines\\10.0.12\\system.io.pipelines.10.0.12.nupkg.sha512",
     "C:\\Users\\sendi\\.nuget\\packages\\system.text.encodings.web\\10.0.12\\system.text.encodings.web.10.0.12.nupkg.sha512",
     "C:\\Users\\sendi\\.nuget\\packages\\system.text.json\\10.0.12\\system.text.json.10.0.12.nupkg.sha512",

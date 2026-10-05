@@ -1,0 +1,37 @@
+2026-10-05 19:01:01 | ERROR | alert f8836dbf-ae4e-416e-9b69-5143c0ee4ba1 hava a problem with the lat
+2026-10-05 19:01:02 | ERROR | alert 924ab080-8efc-44f8-977c-e052dafd98bf hava a problem with the lon
+2026-10-05 19:01:05 | INFO | Closing connection (200): Normal shutdown
+2026-10-05 19:01:05 | INFO | Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F64ECABCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-05 19:01:05 | INFO | Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F64ECABCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-05 19:01:05 | INFO | Closing connection (200): 'Normal shutdown'
+2026-10-05 19:01:05 | INFO | Aborting transport connection: state=1; <socket.socket fd=1172, family=23, type=1, proto=6, laddr=('::1', 59348, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:01:05 | INFO | _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=1172, family=23, type=1, proto=6, laddr=('::1', 59348, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:01:05 | INFO | Deactivating transport: state=1; <socket.socket fd=1172, family=23, type=1, proto=6, laddr=('::1', 59348, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:01:05 | INFO | AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-05 19:01:05 | INFO | Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-05 19:01:05 | INFO | Closing transport socket and unlinking: state=3; <socket.socket fd=1172, family=23, type=1, proto=6, laddr=('::1', 59348, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:01:05 | INFO | User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2026-10-05 19:03:48 | INFO | Closing connection (200): Normal shutdown
+2026-10-05 19:03:48 | INFO | Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231C3F2FCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-05 19:03:48 | INFO | Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000231C3F2FCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-05 19:03:48 | INFO | Closing connection (200): 'Normal shutdown'
+2026-10-05 19:03:48 | INFO | Aborting transport connection: state=1; <socket.socket fd=996, family=23, type=1, proto=6, laddr=('::1', 49375, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:03:48 | INFO | _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=996, family=23, type=1, proto=6, laddr=('::1', 49375, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:03:48 | INFO | Deactivating transport: state=1; <socket.socket fd=996, family=23, type=1, proto=6, laddr=('::1', 49375, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:03:48 | INFO | AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-05 19:03:48 | INFO | Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-05 19:03:48 | INFO | Closing transport socket and unlinking: state=3; <socket.socket fd=996, family=23, type=1, proto=6, laddr=('::1', 49375, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-05 19:03:48 | INFO | User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2026-10-05 19:04:12 | ERROR | alert 1f79edf1-4da9-427f-b28a-52ef127c456c hava no status
+2026-10-05 19:04:16 | ERROR | alert 506261e5-98a3-4ba0-b108-2e2a060641da hava no priority
+2026-10-05 19:04:24 | ERROR | alert 678aad0e-5515-4d76-8b1e-eee4385f7e84 hava a problem with the lon
+2026-10-05 19:04:24 | ERROR | alert 4470d5a2-2ed9-4933-8819-197e4347a044 hava a problem with the lat
+2026-10-05 19:04:26 | ERROR | alert 72efe7bb-9d0f-4655-8dc6-508b173b85ec hava a problem with the lat
+2026-10-05 19:04:26 | ERROR | alert 83964a2a-85d2-491c-b8a1-3b74eb10ca81 hava no timestamp
+2026-10-05 19:04:27 | ERROR | alert 99c0ba51-7b01-4b4c-a748-1cc7042df198 hava no classification
+2026-10-05 19:04:28 | ERROR | alert 096a80cb-0773-42fe-a543-b3c0602e7dbe hava a problem with the lon
+2026-10-05 19:04:28 | ERROR | alert e7c92386-a965-4e69-b2c3-b4408251e242 hava no status
+2026-10-05 19:04:28 | ERROR | alert 27b5739c-95ce-46ca-a2b2-804ea4db09a9 hava no classification
+2026-10-05 19:04:30 | ERROR | alert b462692a-9e3e-4efe-9fa7-760c662b9079 hava a problem with the lon
+2026-10-05 19:05:02 | ERROR | alert 4a0a05ce-8172-45dc-91b0-2b12c4b74acf hava no title
+2026-10-05 19:05:23 | ERROR | alert 6168cfcb-72e0-4cba-90a3-3fbc0a571f63 hava a problem with the lon
