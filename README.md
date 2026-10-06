@@ -47,6 +47,8 @@ python -m pip install redis
 python -m pip install pika
 python -m pip install shapely 
 python -m pip install geopandas
+python -m pip install rabbit
+python -m pip install requests 
 ```
 ## PikudDaromRabbit 
 ## PikudHaomekRabbit
