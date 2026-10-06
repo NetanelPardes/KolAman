@@ -8,17 +8,7 @@ using Microsoft.Extensions.Configuration;
 
 using Serilog;
 
-Directory.CreateDirectory("Logs");
 
-Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Information()
-    .WriteTo.File(
-        "Logs/NotificationGate.log",
-        outputTemplate:
-            "{Timestamp:yyyy-MM-dd HH:mm:ss} | {Level:u3} | {Message:lj}{NewLine}{Exception}",
-        encoding: System.Text.Encoding.UTF8
-    )
-    .CreateLogger();
 
 
 namespace NotificationGate
@@ -29,6 +19,18 @@ namespace NotificationGate
         private static string _alertsTopic = "";
         static async Task Main()
         {
+            Directory.CreateDirectory("Logs");
+
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .WriteTo.File(
+                    "Logs/NotificationGate.log",
+                    outputTemplate:
+                        "{Timestamp:yyyy-MM-dd HH:mm:ss} | {Level:u3} | {Message:lj}{NewLine}{Exception}",
+                    encoding: System.Text.Encoding.UTF8
+                )
+                .CreateLogger();
+                
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false)

@@ -42,3 +42,9 @@ python -m pip install pika
 python -m pip install shapely 
 python -m pip install geopandas
 ```
+
+### install for evry pikuf
+```
+dotnet add package RabbitMQ.Client --version 7.1.2
+dotnet add package MongoDB.Driver --version 3.12.0
+```

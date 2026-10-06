@@ -84,3 +84,105 @@
 2026-10-06 09:55:31 | ERROR | alert 0cdf6d81-0de1-4181-8912-6f013dc07a54 hava a problem with the lon
 2026-10-06 09:56:56 | ERROR | alert c9ef9e21-c888-4666-9248-452ebcf6f5d5 hava a problem with the lon
 2026-10-06 09:57:13 | ERROR | alert 0939c7d8-e7f8-4ef5-a088-fb417871cc1d hava no status
+2026-10-06 10:56:17 | ERROR | alert bd08eabc-9802-46af-9249-3444de06cb0c hava a problem with the lat
+2026-10-06 10:57:06 | ERROR | alert 36b7fe8f-0750-401e-bddf-c5b957254ec1 hava a problem with the lon
+2026-10-06 10:57:12 | ERROR | alert bdce1eb2-fee9-4d59-991f-627393a106eb hava no timestamp
+2026-10-06 10:58:14 | ERROR | alert d04c9160-19c5-430f-ad1b-dcf73388d09a hava a problem with the lat
+2026-10-06 10:59:25 | ERROR | alert 9ae2f650-5971-458a-8e9c-135defdf7b11 hava a problem with the lon
+2026-10-06 10:59:26 | ERROR | alert 515c3f25-ed03-4d0d-9e54-6cb22f05a5b8 hava a problem with the lon
+2026-10-06 11:00:00 | ERROR | alert c2924768-9733-4f22-8ffc-3f8d53a13cf0 hava a problem with the lat
+2026-10-06 11:00:46 | ERROR | alert 544dbb1c-c6fe-4d74-8c01-4d9d028cbfcd hava no source
+2026-10-06 11:00:47 | ERROR | alert 97e0461b-afe6-48ec-a08a-0bcc21ef0e86 hava no priority
+2026-10-06 11:00:49 | ERROR | alert 2b1e22a8-31bf-4def-ac3a-46f6b9c4caa1 hava no classification
+2026-10-06 11:01:31 | ERROR | alert 8c709957-92fa-4cbf-9eb0-79ef3f68f138 hava no timestamp
+2026-10-06 11:01:43 | ERROR | alert 1b2b05be-dab8-4dd5-aaaa-b0baae2e9d17 hava a problem with the lat
+2026-10-06 11:01:59 | ERROR | alert 6aa45895-2b44-4204-8709-352063ed861a hava a problem with the lon
+2026-10-06 11:02:19 | ERROR | alert 0faeab00-d973-401b-961e-1bddcc0263c1 hava no timestamp
+2026-10-06 11:03:01 | ERROR | alert c00cc49c-c31e-4709-a197-7361af4c82a2 hava no priority
+2026-10-06 11:03:06 | ERROR | alert 1d3ec92f-399d-454b-8222-bcefebbdadb1 hava a problem with the lon
+2026-10-06 11:03:18 | ERROR | alert 083fda9a-b3c1-4e7a-b707-f0a92b83b349 hava no source
+2026-10-06 11:03:19 | ERROR | alert 7cfd5973-12c7-4384-a70c-fe51208fae5b hava a problem with the lon
+2026-10-06 11:03:38 | ERROR | alert 4e111b73-8719-4074-96f6-9cd4f4aa947f hava a problem with the lat
+2026-10-06 11:03:50 | ERROR | alert ff95aea3-9f67-4f0c-b63c-a14d478c42a8 hava a problem with the lon
+2026-10-06 11:05:30 | ERROR | alert 09ae42b0-d82b-4d65-ae1b-ebb8e2f8fc5b hava no priority
+2026-10-06 11:05:51 | ERROR | alert d52cfcc2-8bb3-4604-9507-edf8c5a6a84f hava a problem with the lat
+2026-10-06 11:05:56 | ERROR | alert 1b402516-8023-4869-8522-998a8b5bd6a3 hava a problem with the lon
+2026-10-06 11:06:05 | ERROR | alert cbb2497e-2237-4cac-8026-e5ab3dc0b16d hava a problem with the lon
+2026-10-06 11:06:32 | ERROR | alert b21307ce-4e6b-406b-b431-41496b8ea777 hava a problem with the lat
+2026-10-06 11:28:51 | ERROR | alert efab07b1-4b59-49b9-a2fa-303c006cb101 hava no timestamp
+2026-10-06 11:28:55 | ERROR | alert b13be322-7744-4f3a-b666-cd3f25a8e745 hava no timestamp
+2026-10-06 11:28:57 | ERROR | alert 3aae5229-d9e6-401e-904e-142ee6caa1f7 hava a problem with the lat
+2026-10-06 11:29:00 | ERROR | alert 0b871ef7-9766-47a5-9a8a-4f893c2a9855 hava no status
+2026-10-06 11:29:00 | ERROR | alert 58ad70fa-53c0-42b5-a2dc-241652a8f553 hava a problem with the lon
+2026-10-06 11:29:01 | ERROR | alert c835e844-5d52-4889-98ed-bded5c9096e7 hava a problem with the lon
+2026-10-06 11:29:01 | ERROR | alert c57f9ca7-eada-405b-be72-ca7685190e25 hava a problem with the lon
+2026-10-06 11:29:02 | ERROR | alert f0575bbd-4f0c-4419-a8ee-a6250a40e75b hava a problem with the lat
+2026-10-06 11:29:02 | ERROR | alert 581c6c8e-8d13-4b06-b59b-8a826e3809a6 hava no classification
+2026-10-06 11:29:03 | ERROR | alert 56907054-72c1-48d6-be89-6d9901dc8499 hava no timestamp
+2026-10-06 11:29:09 | ERROR | alert 4a89f760-081d-47f4-8f34-6c702d02651f hava a problem with the lat
+2026-10-06 11:29:11 | ERROR | alert 76e70e4a-d5df-43c3-bb78-a188c23c8b31 hava no priority
+2026-10-06 11:29:17 | ERROR | alert 513707a5-c834-4ead-acef-a311bc308b98 hava a problem with the lat
+2026-10-06 11:29:20 | ERROR | alert 7516ef2c-ffec-4473-9074-52ebe065ceee hava no timestamp
+2026-10-06 11:29:24 | ERROR | alert 3572f346-60f0-4418-bbbb-af5df0cda80a hava no timestamp
+2026-10-06 11:29:34 | INFO | Closing connection (200): Normal shutdown
+2026-10-06 11:29:34 | INFO | Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000209168DFCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-06 11:29:34 | INFO | Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000209168DFCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-06 11:29:34 | INFO | Closing connection (200): 'Normal shutdown'
+2026-10-06 11:29:34 | INFO | Aborting transport connection: state=1; <socket.socket fd=964, family=23, type=1, proto=6, laddr=('::1', 51678, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 11:29:34 | INFO | _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=964, family=23, type=1, proto=6, laddr=('::1', 51678, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 11:29:34 | INFO | Deactivating transport: state=1; <socket.socket fd=964, family=23, type=1, proto=6, laddr=('::1', 51678, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 11:29:34 | INFO | AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-06 11:29:34 | INFO | Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-06 11:29:34 | INFO | Closing transport socket and unlinking: state=3; <socket.socket fd=964, family=23, type=1, proto=6, laddr=('::1', 51678, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 11:29:34 | INFO | User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2026-10-06 11:48:08 | ERROR | alert 3db9f2da-c0d8-4b3e-9d94-58b9fc1be3d5 hava a problem with the lon
+2026-10-06 11:48:11 | ERROR | alert efbd5bfc-66ec-4f9e-a50e-7270e2cfcd61 hava a problem with the lon
+2026-10-06 11:48:14 | ERROR | alert 523ddd70-89e2-4be9-874e-52ae9033bc3e hava a problem with the lat
+2026-10-06 11:48:51 | ERROR | alert ca697631-a7e1-46fd-a0fa-9b1fce97ffd0 hava no title
+2026-10-06 11:49:43 | ERROR | alert 98f9acb2-e0d9-437e-b2bf-00c31e280a17 hava a problem with the lon
+2026-10-06 11:50:17 | ERROR | alert 35919199-73d1-48c1-a0a5-5ab42c71860e hava a problem with the lat
+2026-10-06 11:50:47 | ERROR | alert 8be237cb-0584-4e82-9fdb-fed5cfe1e48a hava no content
+2026-10-06 11:51:42 | ERROR | alert ff5975f9-d941-451f-97b2-8394e27982cd hava no timestamp
+2026-10-06 11:52:26 | ERROR | alert f4809b15-a1bd-4e4b-93b5-45c29405761b hava no classification
+2026-10-06 11:52:48 | ERROR | alert 9fb4810d-2bd4-404b-974b-f7c22cf24617 hava no source
+2026-10-06 11:53:06 | ERROR | alert dfa8d175-4a33-4494-861a-85a2c831ac43 hava a problem with the lon
+2026-10-06 11:53:34 | ERROR | alert d40d1ffc-aee4-4187-85d2-bbcc20b3c879 hava no timestamp
+2026-10-06 11:53:56 | ERROR | alert 60cdbd83-926d-4f8d-89c8-f95de47356a0 hava a problem with the lon
+2026-10-06 11:55:10 | ERROR | alert 38f58a22-b051-417e-bfdf-b074167275c3 hava no priority
+2026-10-06 11:57:17 | ERROR | alert 7332526f-be15-40ee-bbd4-e9f8a70bfff7 hava a problem with the lon
+2026-10-06 11:57:37 | ERROR | alert b18d31f3-cd91-42e3-a8c0-18138220303b hava a problem with the lon
+2026-10-06 11:57:44 | ERROR | alert ae3e4094-124c-499b-82d3-3bceb8d8dee7 hava a problem with the lon
+2026-10-06 11:59:45 | ERROR | alert 6a1b57ca-17b6-4f5c-a91e-133eba24642e hava a problem with the lat
+2026-10-06 12:00:04 | ERROR | alert 45672f72-de35-432e-9976-41bddd3a37d3 hava a problem with the lat
+2026-10-06 12:00:10 | ERROR | alert ccae7ca0-a653-423a-8bf1-55574ec365e1 hava a problem with the lat
+2026-10-06 12:00:17 | ERROR | alert e50d780b-41a2-4e1c-b1a9-d0b9b313a620 hava no title
+2026-10-06 12:00:54 | ERROR | alert 230de500-5248-4180-85a9-4fa911f302e9 hava no title
+2026-10-06 12:01:20 | ERROR | alert d112653e-000a-4a9c-babf-dce9b7c8ca9e hava a problem with the lat
+2026-10-06 12:01:29 | ERROR | alert 100387e1-c98c-4e26-9a70-d69d4bcc4a0f hava no title
+2026-10-06 12:01:34 | ERROR | alert 16d75518-8053-47ed-bb8d-c37d28b96e9e hava a problem with the lon
+2026-10-06 12:03:14 | ERROR | alert 547f5129-e3fe-49b6-bdf6-29bf337f5ee4 hava a problem with the lat
+2026-10-06 12:03:35 | ERROR | alert 3058bb45-a9ea-4e44-8bed-3b17aba0aa7f hava a problem with the lon
+2026-10-06 12:04:19 | ERROR | alert 58224244-9a1f-4e7f-b5f6-7d6f2e4c2147 hava a problem with the lon
+2026-10-06 12:04:20 | ERROR | alert 6d585a04-de77-42ab-9649-b60f101bda8f hava a problem with the lon
+2026-10-06 12:05:02 | ERROR | alert aea1c258-a6cf-444e-9096-990a21093800 hava a problem with the lat
+2026-10-06 12:06:27 | ERROR | alert b2ba0d40-0c2e-4796-a587-d2602db0d9b2 hava a problem with the lat
+2026-10-06 12:06:58 | ERROR | alert c50546ce-c1d9-4f83-85cc-6b072df5ae10 hava no priority
+2026-10-06 12:07:19 | ERROR | alert da6b9832-d1fd-4e82-a7fe-7b74c3d73ebd hava a problem with the lat
+2026-10-06 12:07:57 | ERROR | alert 29c21c07-0658-4fdf-ba06-50ae3ddf411a hava a problem with the lon
+2026-10-06 12:08:57 | ERROR | alert 488ea46a-7d97-4112-a192-3a2be4774b7b hava a problem with the lat
+2026-10-06 12:09:11 | ERROR | alert b7ce2833-4c4f-4d40-a756-2e199ce48016 hava a problem with the lon
+2026-10-06 12:09:53 | ERROR | alert bd531320-f162-483c-92af-d80e9e237b79 hava a problem with the lon
+2026-10-06 12:09:58 | ERROR | alert f0155861-d968-49d4-acf7-3aec5f8f3807 hava a problem with the lon
+2026-10-06 12:11:00 | ERROR | alert d33e3d8c-cd99-44ed-b7b6-9e5a5a8abc51 hava no status
+2026-10-06 12:11:21 | ERROR | alert 4db39c48-6fa6-4554-bd2d-588b436cbe17 hava no timestamp
+2026-10-06 12:13:06 | INFO | Closing connection (200): Normal shutdown
+2026-10-06 12:13:06 | INFO | Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000235D172FCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-06 12:13:06 | INFO | Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000235D172FCB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2026-10-06 12:13:06 | INFO | Closing connection (200): 'Normal shutdown'
+2026-10-06 12:13:06 | INFO | Aborting transport connection: state=1; <socket.socket fd=940, family=23, type=1, proto=6, laddr=('::1', 50725, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 12:13:06 | INFO | _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=940, family=23, type=1, proto=6, laddr=('::1', 50725, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 12:13:06 | INFO | Deactivating transport: state=1; <socket.socket fd=940, family=23, type=1, proto=6, laddr=('::1', 50725, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 12:13:06 | INFO | AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-06 12:13:06 | INFO | Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2026-10-06 12:13:06 | INFO | Closing transport socket and unlinking: state=3; <socket.socket fd=940, family=23, type=1, proto=6, laddr=('::1', 50725, 0, 0), raddr=('::1', 5672, 0, 0)>
+2026-10-06 12:13:06 | INFO | User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')

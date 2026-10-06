@@ -2,6 +2,7 @@ using System;
 using System.Text.Json;
 using Confluent.Kafka;
 using Confluent.Kafka.Admin;
+using Serilog;
 namespace NotificationGate.service
 {
     public class kafkaProduser
