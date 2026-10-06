@@ -38,9 +38,14 @@ def send_alert(alert, command):
         properties=pika.BasicProperties(delivery_mode=2),
         mandatory=True
     )
-
     print(f"Sent to Rabbit: {command}")
 
 
 def close():
     connection.close()
+
+
+   
+ 
+
+

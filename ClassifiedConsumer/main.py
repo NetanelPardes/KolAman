@@ -8,6 +8,7 @@ from shapely.geometry import Point
 from rabbit_service import send_alert, close
 import logging
 from pathlib import Path
+from elastic_logger import log_alert_sent
 
 Path("Logs").mkdir(exist_ok=True)
 
@@ -82,7 +83,9 @@ try:
 
         alert["command"] = command
         send_alert(alert, command)
+        log_alert_sent(alert["alert_id"], command)
         consumer.commit(message=message, asynchronous=False)
+        
 
         saved = redis_client.set(event_id,json.dumps(alert, ensure_ascii=False),nx=True,ex=300)
 
@@ -95,6 +98,8 @@ try:
 
 except KeyboardInterrupt:
     print("Processor stopped.")
+except KafkaException:
+    print("x")
 
 finally:
     consumer.close()
