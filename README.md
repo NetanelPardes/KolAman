@@ -73,6 +73,8 @@ dotnet add package RabbitMQ.Client --version 7.1.2
 dotnet add package MongoDB.Driver --version 3.12.0
 ```
 
+
+
 ## hamal
 ```
 בסרוויס הנ"ל אנחנו מדמים פעולה של חמ"ל מתפקד
