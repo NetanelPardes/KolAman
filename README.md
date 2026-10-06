@@ -65,6 +65,8 @@ python -m pip install requests
 חוץ מזה שהנתונים מעבירים את זה לרביט בגייסון
 ```
 
+
+
 ### install for evry pikud
 ```bash
 dotnet add package RabbitMQ.Client --version 7.1.2
