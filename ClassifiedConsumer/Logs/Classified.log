@@ -186,3 +186,305 @@
 2026-10-06 12:13:06 | INFO | Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
 2026-10-06 12:13:06 | INFO | Closing transport socket and unlinking: state=3; <socket.socket fd=940, family=23, type=1, proto=6, laddr=('::1', 50725, 0, 0), raddr=('::1', 5672, 0, 0)>
 2026-10-06 12:13:06 | INFO | User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2026-10-06 12:15:15 | ERROR | alert f0811019-f089-4ae8-9fc3-24dede269df7 hava no timestamp
+2026-10-06 12:15:31 | ERROR | alert a8f64040-cf33-4a60-b23b-af16d74ce416 hava a problem with the lon
+2026-10-06 12:16:27 | ERROR | alert f8c15b86-0a6a-43a0-bbc2-09244c6de1b9 hava a problem with the lon
+2026-10-06 12:16:50 | ERROR | alert eb345d34-b98a-47fd-8c9c-1cb47210c707 hava no classification
+2026-10-06 12:17:10 | ERROR | alert 160b39ef-d5c6-4cd2-83cb-83d8a4002511 hava no priority
+2026-10-06 12:20:06 | ERROR | alert 8983c0fc-41ec-40fa-b470-f89128b47f5f hava a problem with the lon
+2026-10-06 12:21:27 | ERROR | alert 1c2b46fd-e96b-4ad6-b6bd-e6648a923917 hava no status
+2026-10-06 12:23:18 | ERROR | alert 59bbb4f8-b163-4b0e-814b-579b4b212cf4 hava a problem with the lat
+2026-10-06 12:23:28 | ERROR | alert e6695922-4355-4af7-a439-c6dafedcd9d6 hava a problem with the lon
+2026-10-06 12:24:36 | ERROR | alert 48d98949-dcf2-438f-a3e8-178e618a721b hava a problem with the lat
+2026-10-06 12:25:03 | ERROR | alert 046e14a3-f8b9-40e9-90c4-1b2b59bda8de hava a problem with the lon
+2026-10-06 12:26:40 | ERROR | alert 212db1c5-cd14-4591-b992-353b510d6a9e hava a problem with the lat
+2026-10-06 12:27:05 | ERROR | alert afa71e16-14d5-4abd-8836-21b9fdd538e3 hava no timestamp
+2026-10-06 12:27:39 | ERROR | alert 4420c860-4d08-4567-9aca-d48be8b2a4d9 hava a problem with the lon
+2026-10-06 12:29:07 | ERROR | alert 293f2a97-98d0-443a-8fe1-a923dd3d45ed hava a problem with the lat
+2026-10-06 12:29:56 | ERROR | alert bb75efa1-9702-4427-85b6-54ce7f600523 hava no status
+2026-10-06 12:29:57 | ERROR | alert 830dddce-304c-4016-9425-363b2f1b920e hava no source
+2026-10-06 12:30:14 | ERROR | alert 0f9a44cc-7fc3-4133-b6fe-965df4393c51 hava a problem with the lat
+2026-10-06 12:31:28 | ERROR | alert ed33ce23-f428-4939-a99c-3e33cc0a4d53 hava no status
+2026-10-06 12:32:51 | ERROR | alert ba86b2f8-6ac7-4207-850a-d93afcb0b408 hava no source
+2026-10-06 12:33:14 | ERROR | alert 0326bfca-ac9c-4863-9c3e-72e9bc40eea5 hava a problem with the lon
+2026-10-06 12:33:35 | ERROR | alert 2de41418-a8a8-4801-ad25-9afe88f3b3d2 hava no content
+2026-10-06 12:33:46 | ERROR | alert aa916c29-805e-427b-b4a3-4a7efb60f3f5 hava no status
+2026-10-06 12:36:29 | ERROR | alert 6994cc46-4794-48de-bbb4-1320be6e7b70 hava no source
+2026-10-06 12:36:40 | ERROR | alert 0524a45b-2cc4-4b1e-89c3-117ca9ebc672 hava a problem with the lon
+2026-10-06 12:37:12 | ERROR | alert 66ba0327-9121-4950-8bb1-f62dff120cb8 hava a problem with the lat
+2026-10-06 12:37:15 | ERROR | alert 0d59d245-f485-41b7-bdf6-8cfaadcf4565 hava no source
+2026-10-06 12:37:20 | ERROR | alert 86536700-4fb5-4c69-9b2e-31de247e9f04 hava no title
+2026-10-06 12:38:02 | ERROR | alert 51130f4e-0c3e-4a8f-a404-a1ebd7e6b95c hava a problem with the lat
+2026-10-06 12:38:03 | ERROR | alert 5e19e948-dfac-42e6-8d48-861a8fa6743f hava a problem with the lat
+2026-10-06 12:38:15 | ERROR | alert ee5b95d4-ca17-4e0b-b6ad-7becc40b27a4 hava a problem with the lat
+2026-10-06 12:38:39 | ERROR | alert 523f2882-13d6-4d03-a621-c910474c572f hava no priority
+2026-10-06 12:39:36 | ERROR | alert 1d3a47ee-3f51-4432-ab6f-bbe13f8a0b59 hava no title
+2026-10-06 12:41:02 | ERROR | alert c3c76aa0-77bd-473a-9fcb-173e2ea5c9ec hava no content
+2026-10-06 12:41:08 | ERROR | alert 4a765dc3-15a0-46c1-aaee-04fa505c2237 hava no title
+2026-10-06 12:41:28 | ERROR | alert 5dbf6e32-9eec-42c0-9d57-72ebe094275c hava no title
+2026-10-06 12:43:23 | ERROR | alert 95342be8-889b-4bb4-a4ef-fa1dc15db980 hava a problem with the lon
+2026-10-06 12:43:59 | ERROR | alert b147dc52-a79d-4fa0-b088-a0c9a7cf2a1c hava a problem with the lon
+2026-10-06 12:44:41 | ERROR | alert 2e8cab33-3ee8-4980-8974-2052c5474da3 hava a problem with the lat
+2026-10-06 12:44:44 | ERROR | alert 354488d8-aac3-444d-8b56-1e291143253e hava no source
+2026-10-06 12:44:47 | ERROR | alert c5319390-3d44-4e07-8bf6-910cb45d158a hava a problem with the lat
+2026-10-06 12:46:01 | ERROR | alert d53cd7fa-4fce-453d-bc26-963e5dd1e705 hava a problem with the lon
+2026-10-06 12:46:04 | ERROR | alert 7babec3c-2134-4f87-b02c-c05ba2025fbe hava a problem with the lat
+2026-10-06 12:46:14 | ERROR | alert e9f1355c-e078-4a9e-b31f-039cddded20e hava no status
+2026-10-06 12:46:25 | ERROR | alert 78eee316-2289-457d-ad5b-4d932f6f117f hava a problem with the lat
+2026-10-06 12:46:40 | ERROR | alert 23b3a9c8-120c-4a69-b425-dc8f63f61c11 hava no priority
+2026-10-06 12:47:06 | ERROR | alert 0f329542-3601-47c9-bb23-4e62011bad7f hava no title
+2026-10-06 12:47:39 | ERROR | alert c3f29738-996c-4ada-9164-5200acdcc313 hava no classification
+2026-10-06 12:47:44 | ERROR | alert 5d1d44e0-473e-46cc-96c0-d690383f3854 hava a problem with the lon
+2026-10-06 12:51:26 | ERROR | alert 863c76c4-b5af-4478-837e-90db175aba76 hava a problem with the lon
+2026-10-06 12:52:44 | ERROR | alert 02368645-7070-4576-b9f9-afd86dfc6aa8 hava no timestamp
+2026-10-06 12:53:11 | ERROR | alert a2cd70a8-9e31-4f1d-bf8f-a09f81037810 hava no title
+2026-10-06 12:53:28 | ERROR | alert 29243316-fbeb-45c7-823a-64c3bd300474 hava a problem with the lon
+2026-10-06 12:53:57 | ERROR | alert 08b98227-c63c-4aad-827d-22d44d1b71fd hava no classification
+2026-10-06 12:53:58 | ERROR | alert 554742fc-697f-4586-abd0-3ce78d22fdf1 hava no title
+2026-10-06 12:54:14 | ERROR | alert 2b2a0973-25f7-4a40-bf85-1fe945c54c5f hava a problem with the lat
+2026-10-06 12:55:06 | ERROR | alert d7853226-5d6c-47b1-ac1c-3c38b84e6450 hava a problem with the lat
+2026-10-06 12:57:32 | ERROR | alert 841edef5-4a9a-49d4-a866-cb5c1d94cc60 hava no source
+2026-10-06 13:00:01 | ERROR | alert 39614f98-6b7b-48ed-9155-bbd12099f913 hava a problem with the lat
+2026-10-06 13:00:01 | ERROR | alert 43655aaf-9db9-4088-8d25-c474c56772a3 hava a problem with the lat
+2026-10-06 13:00:02 | ERROR | alert a8ee0187-1655-4346-b319-ed9eaa4dfaca hava no priority
+2026-10-06 13:00:30 | ERROR | alert 2478694f-817d-4195-b914-aa4efd5770c8 hava no source
+2026-10-06 13:00:44 | ERROR | alert 101c7a34-632d-4dfc-aa89-b8a6a4fa2cb1 hava no content
+2026-10-06 13:01:00 | ERROR | alert d7317d11-ff86-4c9b-b353-b505cc4fd0bc hava a problem with the lat
+2026-10-06 13:02:30 | ERROR | alert d9419c83-feaf-4be1-93e1-43de6c42e29a hava a problem with the lat
+2026-10-06 13:04:19 | ERROR | alert 5e11366f-6cac-4424-bd28-1b64e106d7a9 hava a problem with the lat
+2026-10-06 13:04:58 | ERROR | alert eebbbd87-46f5-4f3e-bacf-28e9ed087ae8 hava a problem with the lon
+2026-10-06 13:05:43 | ERROR | alert 6d3ba908-12ab-4cc1-b933-facb78bd78c4 hava a problem with the lon
+2026-10-06 13:06:24 | ERROR | alert 9c3a13f8-d324-48c4-b8fc-03cc76eaf7b8 hava a problem with the lon
+2026-10-06 13:08:21 | ERROR | alert d2043a47-e310-411b-a1f6-0226cfddb6db hava no classification
+2026-10-06 13:09:29 | ERROR | alert ad4a44c3-aa8e-4d65-89e8-61d326a5a0f3 hava a problem with the lat
+2026-10-06 13:09:56 | ERROR | alert af693ba6-4a2f-4d41-8551-b3a2dc6f11bf hava a problem with the lat
+2026-10-06 13:10:33 | ERROR | alert 35437902-b732-49a0-aedd-da011bd95e22 hava no title
+2026-10-06 13:11:08 | ERROR | alert 953f60ef-fff7-4cc7-af77-110b0c5ec99a hava a problem with the lat
+2026-10-06 13:11:27 | ERROR | alert eff5735f-f02a-4acd-97e4-46e5bb7bb99d hava a problem with the lat
+2026-10-06 13:13:47 | ERROR | alert 06ec5cda-f98b-4858-a9dd-f14785e65826 hava a problem with the lon
+2026-10-06 13:16:33 | ERROR | alert 83ef75f6-3aad-4893-8504-6934ee417576 hava no source
+2026-10-06 13:17:41 | ERROR | alert 9b749759-0a8d-4245-9883-3ddf870e088a hava no source
+2026-10-06 13:18:01 | ERROR | alert b524978c-b9b9-4217-9515-89070471454c hava a problem with the lon
+2026-10-06 13:18:49 | ERROR | alert 48c2f719-0b8d-483f-96f6-a556cf874081 hava no timestamp
+2026-10-06 13:19:01 | ERROR | alert 55184dfd-dfed-4503-8f01-b93d2e74bd5e hava a problem with the lon
+2026-10-06 13:19:47 | ERROR | alert b074ff62-9398-47af-bdff-0079c80c44a7 hava a problem with the lat
+2026-10-06 13:19:59 | ERROR | alert a41ad1b3-8357-4956-b9e7-862b6054876c hava a problem with the lat
+2026-10-06 13:20:41 | ERROR | alert 0ef51588-3b09-4c27-aa95-c15da0fc6230 hava no timestamp
+2026-10-06 13:23:06 | ERROR | alert 79c1a8a0-d763-4abe-a6b4-207e29787a2b hava no title
+2026-10-06 13:23:34 | ERROR | alert 82e5fc50-a269-4226-bf7b-df141a116533 hava a problem with the lon
+2026-10-06 13:24:32 | ERROR | alert 9fc3a529-3445-43e0-884e-ec7cccd3da0d hava no source
+2026-10-06 13:24:45 | ERROR | alert 03942516-a24c-486d-a805-1975c44fe25c hava a problem with the lat
+2026-10-06 13:29:06 | ERROR | alert d25472ad-3e4f-400e-b277-c8c09bea92a1 hava a problem with the lat
+2026-10-06 13:29:11 | ERROR | alert d3c4f0e2-1d21-4b9d-9233-d6da724b08f1 hava no source
+2026-10-06 13:29:12 | ERROR | alert 031a1e0e-6e0f-49ed-923e-2fa87638d27f hava a problem with the lon
+2026-10-06 13:29:24 | ERROR | alert 870330b0-8436-40a2-9587-dbf9a35c3bec hava a problem with the lat
+2026-10-06 13:29:30 | ERROR | alert eeaca74a-ca19-4c1d-b50b-f1b4776ba7a4 hava a problem with the lat
+2026-10-06 13:29:47 | ERROR | alert 4d78aef6-45c5-4069-accf-26a1b9462067 hava a problem with the lon
+2026-10-06 13:30:21 | ERROR | alert 437301f6-341c-490f-8e1c-e0b60b5a79ef hava a problem with the lon
+2026-10-06 13:30:34 | ERROR | alert 6d1ff12e-6f1d-442d-8df1-46134e52ebd0 hava no timestamp
+2026-10-06 13:31:24 | ERROR | alert e2b3a527-d57d-46fd-b5ac-5cd03ad90f20 hava a problem with the lat
+2026-10-06 13:31:59 | ERROR | alert 0cc7e24d-b0c5-4b5d-a2e7-3db36236df26 hava no content
+2026-10-06 13:32:12 | ERROR | alert a7b58996-49a3-43d1-8159-3fec5254c514 hava a problem with the lon
+2026-10-06 13:32:46 | ERROR | alert 1a7f1bc4-b979-4d30-865c-4612111a6a3b hava a problem with the lon
+2026-10-06 13:34:59 | ERROR | alert 28756058-5284-4be4-9378-0f5f19b8f788 hava a problem with the lat
+2026-10-06 13:36:05 | ERROR | alert 57cd6342-d2b0-4f82-8681-1150463fa17f hava no priority
+2026-10-06 13:36:08 | ERROR | alert 8bfc485d-55bd-4a39-b1bb-4c99ec8a75cb hava no classification
+2026-10-06 13:39:08 | ERROR | alert eda6c612-46f3-4fbf-bc01-4a747b8578c0 hava a problem with the lon
+2026-10-06 13:39:42 | ERROR | alert 55b972d3-410c-405f-9843-ce6de131d3a0 hava a problem with the lat
+2026-10-06 13:40:05 | ERROR | alert e1eaf920-8a1c-453d-b29a-57655880d956 hava a problem with the lat
+2026-10-06 13:40:05 | ERROR | alert a187e452-2056-4bc6-b3c8-64299f444b4a hava a problem with the lat
+2026-10-06 13:42:20 | ERROR | alert af9230ba-50ca-427c-b938-996562da29a2 hava no source
+2026-10-06 13:44:00 | ERROR | alert 155a90f6-0770-4711-acd9-d6e28e4179a9 hava no priority
+2026-10-06 13:44:34 | ERROR | alert 8a286aa5-f79b-4991-80b3-9c2a0464339a hava no priority
+2026-10-06 13:45:23 | ERROR | alert ca29f477-ad6c-4470-ab58-69db67ce3328 hava no source
+2026-10-06 13:45:51 | ERROR | alert d79189db-ece3-4f72-9ea5-3965949da485 hava no content
+2026-10-06 13:45:52 | ERROR | alert 3720dd57-7d74-4645-92d2-304003d1fd0d hava no content
+2026-10-06 13:47:10 | ERROR | alert 789cd330-e033-40c8-80f5-a60c246893da hava no title
+2026-10-06 13:47:32 | ERROR | alert 585e3b40-8881-400f-bef4-fa74dcc89d77 hava no title
+2026-10-06 13:48:36 | ERROR | alert 6126b9cd-0875-4649-aff8-d5b2454f2739 hava no classification
+2026-10-06 13:49:19 | ERROR | alert b7e17a52-6ec9-4389-89e3-596c6dcf8bf2 hava a problem with the lon
+2026-10-06 13:50:08 | ERROR | alert efa6a1b9-880f-490f-b81a-33c93dd5e782 hava no priority
+2026-10-06 13:50:50 | ERROR | alert 4d8c81a1-d1ac-4a3a-9695-6b78bd57a313 hava no priority
+2026-10-06 13:51:06 | ERROR | alert bf7908d4-5d49-4f5d-91e6-fb373f8b2a2a hava a problem with the lon
+2026-10-06 13:51:29 | ERROR | alert 67a89b4f-bf28-4b8a-b400-1992e56c1ff6 hava a problem with the lat
+2026-10-06 13:53:56 | ERROR | alert b00fb633-b644-4a18-b3b9-3b6d9df9380f hava a problem with the lat
+2026-10-06 13:54:37 | ERROR | alert 2156a7b8-05ee-485e-93ac-e07f9659e550 hava a problem with the lat
+2026-10-06 13:55:18 | ERROR | alert b10d988b-ac5b-49eb-aac3-06bc3ddf8150 hava a problem with the lat
+2026-10-06 13:56:36 | ERROR | alert b52d4947-53bc-465b-823b-099056e3234f hava a problem with the lat
+2026-10-06 13:57:06 | ERROR | alert e45e258f-c90d-45da-854d-8109b980facb hava a problem with the lon
+2026-10-06 13:57:31 | ERROR | alert a423545b-491c-4645-8fcf-5c8d74ca5ab9 hava no title
+2026-10-06 13:58:27 | ERROR | alert 903463b7-e065-4084-8f91-bda27644a8bd hava no classification
+2026-10-06 13:59:31 | ERROR | alert 3f5b485e-5e77-4ab4-870c-712ac6bcf563 hava a problem with the lon
+2026-10-06 14:00:23 | ERROR | alert 29b7f952-7af1-4262-a08b-2a3365444f1d hava no timestamp
+2026-10-06 14:01:37 | ERROR | alert bc54e912-f963-43dc-b15c-8c42e1114baa hava no priority
+2026-10-06 14:01:51 | ERROR | alert 5d1f1249-a8d4-46f6-9169-4e8dd51b6510 hava a problem with the lon
+2026-10-06 14:03:37 | ERROR | alert 9df26dea-d246-4d88-b22b-7522c86bfd56 hava no title
+2026-10-06 14:04:53 | ERROR | alert 81999e51-abab-4ad6-862f-c48fa0b17e11 hava a problem with the lat
+2026-10-06 14:06:03 | ERROR | alert 66aa88df-cd6e-49cb-abcb-88268d6334d0 hava a problem with the lon
+2026-10-06 14:06:22 | ERROR | alert 0cf25c12-beff-461e-b9a0-f8c9e355c7c9 hava no status
+2026-10-06 14:06:49 | ERROR | alert fd4c9ed2-8ab5-476c-892d-cf53585c87aa hava a problem with the lat
+2026-10-06 14:08:44 | ERROR | alert e96dc63d-0722-4271-8981-3ffa6b85e650 hava no content
+2026-10-06 14:09:04 | ERROR | alert 9c4cf18a-88fc-4d32-8825-27cdfd6fba63 hava a problem with the lat
+2026-10-06 14:09:33 | ERROR | alert 92f55d77-e10d-42af-a0b4-7ac41c1ec21c hava a problem with the lat
+2026-10-06 14:10:03 | ERROR | alert cbb4dbf1-c197-4934-b868-15de6b804535 hava a problem with the lon
+2026-10-06 14:10:37 | ERROR | alert 8b073b4e-3c0d-450e-945d-0d2917e309e8 hava no source
+2026-10-06 14:12:16 | ERROR | alert 829bb6ff-36bd-443f-bd87-8d025821ff21 hava a problem with the lat
+2026-10-06 14:12:38 | ERROR | alert 7f7ecb90-b039-4e59-bf60-3c8bb1fa9dda hava no status
+2026-10-06 14:13:33 | ERROR | alert e1b5c6ee-954f-41b4-81a7-9528ca3966db hava a problem with the lat
+2026-10-06 14:13:36 | ERROR | alert 564c8b6d-7c51-459d-83db-6da730762d98 hava a problem with the lat
+2026-10-06 14:13:59 | ERROR | alert 84ce6a6a-06ab-49ad-9010-980008c3547e hava a problem with the lat
+2026-10-06 14:14:24 | ERROR | alert 5b7b8673-2cc4-4544-9e5f-a3846853b488 hava a problem with the lon
+2026-10-06 14:15:16 | ERROR | alert eb54a9ff-9623-480a-9200-6ec52c3a0d48 hava a problem with the lon
+2026-10-06 14:15:38 | ERROR | alert 6a6d2445-0866-4233-89da-bb4a43c632f9 hava a problem with the lon
+2026-10-06 14:16:16 | ERROR | alert 26de7366-46f9-45ec-b23f-99b4bbad6ac5 hava no title
+2026-10-06 14:16:32 | ERROR | alert a53a212f-13f9-4d98-b578-7e77a9c70de4 hava a problem with the lat
+2026-10-06 14:17:17 | ERROR | alert a1dae217-2301-4baa-acaf-354cf84e3144 hava no source
+2026-10-06 14:17:41 | ERROR | alert 04f24bee-f4b7-44f4-8f76-05886c708056 hava no priority
+2026-10-06 14:19:30 | ERROR | alert cb6ac339-6bcc-4025-8fcf-5efccb101bed hava a problem with the lon
+2026-10-06 14:19:58 | ERROR | alert ab967cdf-e498-4e0d-91a5-85973b822991 hava a problem with the lat
+2026-10-06 14:20:30 | ERROR | alert 0c010c8a-2af6-41ba-a711-8eb438c62c6f hava a problem with the lon
+2026-10-06 14:20:49 | ERROR | alert 4e3941cf-04ef-4e97-9573-27a950628a62 hava no source
+2026-10-06 14:21:01 | ERROR | alert 27140197-91e1-40c2-beee-7141723f277b hava no content
+2026-10-06 14:21:56 | ERROR | alert 78bd1a94-413c-4aec-9042-4cc1134f9bcf hava a problem with the lon
+2026-10-06 14:22:42 | ERROR | alert fed537ba-3d89-4a38-ae5f-75aff46ff0a9 hava no timestamp
+2026-10-06 14:23:10 | ERROR | alert 395e8367-5a08-44f1-a3de-beb465aaad61 hava a problem with the lat
+2026-10-06 14:23:59 | ERROR | alert ee86a6e7-f396-4759-be84-584f2468b789 hava a problem with the lon
+2026-10-06 14:25:09 | ERROR | alert b4962519-f7c2-43c7-a5d9-470f6f76f7c2 hava a problem with the lon
+2026-10-06 14:26:40 | ERROR | alert 19f66978-d2cb-47bf-8705-9ae2d753c3f8 hava no status
+2026-10-06 14:27:32 | ERROR | alert 33b020a7-e21f-4a51-85ad-6754a2af7f5a hava no content
+2026-10-06 14:27:42 | ERROR | alert 9039e780-6819-4a8f-956d-8ea159ffbc4b hava no timestamp
+2026-10-06 14:28:09 | ERROR | alert 77374ac2-c524-4713-839f-ea89f9e38576 hava a problem with the lat
+2026-10-06 14:28:49 | ERROR | alert 852c5fa3-9c19-4dbe-8e32-21c913298f38 hava no source
+2026-10-06 14:29:22 | ERROR | alert 52c69de7-4b26-488f-9a9c-4161421cc726 hava a problem with the lat
+2026-10-06 14:29:38 | ERROR | alert 7ccda044-db5b-4e77-8364-4f183966ee67 hava no title
+2026-10-06 14:31:12 | ERROR | alert 63796aa7-355e-4245-b4fe-39afb125d2a5 hava a problem with the lat
+2026-10-06 14:31:13 | ERROR | alert 8c7c9872-8821-4c69-8b92-27ab715e0d59 hava a problem with the lon
+2026-10-06 14:32:29 | ERROR | alert e21e20cb-f1fc-4ead-9f30-1defbc53d6f2 hava a problem with the lon
+2026-10-06 14:33:06 | ERROR | alert b51ad35d-5393-4ff9-a1af-a31127fd1fee hava a problem with the lon
+2026-10-06 14:33:08 | ERROR | alert f7520aeb-615c-4cd1-bd97-d1053c511dc2 hava no content
+2026-10-06 14:34:13 | ERROR | alert c1468b6b-c883-4d86-9040-c243868607e9 hava no title
+2026-10-06 14:34:21 | ERROR | alert c5fbcbd7-43c0-4d9f-8dd7-9725713cded3 hava a problem with the lon
+2026-10-06 14:34:24 | ERROR | alert 3a810f82-1930-4efd-b6e5-e35eef31aa1f hava no source
+2026-10-06 14:34:50 | ERROR | alert 61a97a7c-6857-494a-b48c-b6456f4d6014 hava no priority
+2026-10-06 14:35:19 | ERROR | alert a240a976-11c5-42c9-a6c9-8625f4710cf8 hava no content
+2026-10-06 14:35:43 | ERROR | alert ee10248a-a865-4d1e-8f55-52627bfffba9 hava no source
+2026-10-06 14:36:22 | ERROR | alert 3b7f596a-3a0f-4044-a4d5-ea211cbe299d hava no title
+2026-10-06 14:36:28 | ERROR | alert 531c58cd-d111-40d2-9e0f-16e1e05c6a3d hava a problem with the lat
+2026-10-06 14:40:04 | ERROR | alert b8cd57b6-573b-4b08-a0a3-afb3bd65e35d hava no status
+2026-10-06 14:40:05 | ERROR | alert 3d4c78bb-cb86-4b0a-94a7-f8051a960e9c hava a problem with the lon
+2026-10-06 14:40:55 | ERROR | alert 67857c18-0a7d-4f2d-abe4-41cd07db0959 hava a problem with the lat
+2026-10-06 14:41:10 | ERROR | alert ed567224-494c-452b-b91f-cdf764080cad hava no title
+2026-10-06 14:42:20 | ERROR | alert 9ddaa647-8a37-48f5-8608-be8db539cb24 hava no priority
+2026-10-06 14:42:23 | ERROR | alert 914b4c06-3b92-436d-b35d-c304020fb6b2 hava no classification
+2026-10-06 14:42:27 | ERROR | alert 88127a52-f70f-4574-a58c-c271a2fa0ee0 hava a problem with the lon
+2026-10-06 14:45:08 | ERROR | alert ff6bbe76-ed10-4af1-9679-43ba8b3ca7da hava no source
+2026-10-06 14:45:47 | ERROR | alert 50023222-274f-4291-a429-e03cdc9b4232 hava a problem with the lat
+2026-10-06 14:47:11 | ERROR | alert e5c5f596-97cd-466c-8fce-214996d4604f hava a problem with the lon
+2026-10-06 14:48:06 | ERROR | alert 84e73b89-2858-4843-9e9b-5c447c36950c hava no classification
+2026-10-06 14:50:43 | ERROR | alert 09ab54da-ee02-428a-a626-cc7ce35bdcb8 hava no classification
+2026-10-06 14:50:44 | ERROR | alert ef9f45f5-8477-4db8-8044-ed9648c6e4b5 hava no priority
+2026-10-06 14:50:46 | ERROR | alert 30263a47-3653-44e2-bf97-4a240da0e079 hava a problem with the lat
+2026-10-06 14:51:32 | ERROR | alert d5c6dfae-2dba-499f-bca2-54ecdc91e2fd hava no content
+2026-10-06 14:52:16 | ERROR | alert 1e00276e-602b-47eb-b183-1c4ea8f66059 hava a problem with the lat
+2026-10-06 16:20:32 | ERROR | alert 448bd685-10a3-4ae7-8443-c94ecad1f747 hava no title
+2026-10-06 16:20:40 | ERROR | alert 38b7bc75-d076-4aae-afeb-e84e7940f399 hava a problem with the lon
+2026-10-06 16:31:36 | ERROR | alert 68e136f4-0fda-4891-beed-49ced888105c hava no status
+2026-10-06 16:31:53 | ERROR | alert cc0b53d0-bf92-4de7-9bc4-0ec769f48186 hava no status
+2026-10-06 16:32:47 | ERROR | alert 4b55b326-5f85-4a3a-b2de-21541ced0bb2 hava a problem with the lon
+2026-10-06 16:33:30 | ERROR | alert 320f44bb-25f3-4129-a3ee-dcebadb23ed8 hava no status
+2026-10-06 16:34:33 | ERROR | alert 95ce4d8a-1e20-4928-95da-4a0f708a90ad hava a problem with the lon
+2026-10-06 16:34:45 | ERROR | alert b2a23762-3ea3-4bb6-b3c2-226e7e43d3ef hava no content
+2026-10-06 16:34:58 | ERROR | alert 7ad71aac-7f6a-4044-8309-162e7d0be611 hava a problem with the lat
+2026-10-06 16:35:43 | ERROR | alert 89f9a486-09c1-4046-8dde-82e4b95d8912 hava a problem with the lat
+2026-10-06 16:37:18 | ERROR | alert 7899f7d0-7244-4e03-a59a-60aebd78fb86 hava a problem with the lon
+2026-10-06 16:38:02 | ERROR | alert 85e243a3-d028-4aa5-915d-21932de2ef4c hava a problem with the lat
+2026-10-06 16:39:10 | ERROR | alert c1d55727-e2c8-42d7-a02f-290c9ecf53e9 hava a problem with the lon
+2026-10-06 16:39:51 | ERROR | alert ed994476-3bf2-4af4-aee9-35d9b2b0b740 hava a problem with the lat
+2026-10-06 16:40:07 | ERROR | alert d63aa9ac-e3f0-4dbc-adf8-401eb8124992 hava no content
+2026-10-06 16:40:29 | ERROR | alert 1091bf4c-7e15-408e-88d2-c213674db75e hava a problem with the lat
+2026-10-06 16:40:34 | ERROR | alert 7c12ee1e-19bb-4f6f-af8a-04d331558350 hava no source
+2026-10-06 16:42:33 | ERROR | alert cf12a149-6354-4db4-9d01-e48c69eadccb hava a problem with the lon
+2026-10-06 16:46:30 | ERROR | alert 78058c23-01fd-4e5f-84ca-a3e1852fc426 hava no timestamp
+2026-10-06 16:48:34 | ERROR | alert 9926070c-e10e-47aa-966b-473b00c4170a hava a problem with the lat
+2026-10-06 16:49:20 | ERROR | alert 5bd56f91-8df4-4949-93dc-675c78939c07 hava a problem with the lat
+2026-10-06 16:49:56 | ERROR | alert 3fe8044b-19ff-4d68-8970-15b151304bc1 hava a problem with the lat
+2026-10-06 16:50:23 | ERROR | alert 8b6c2002-549d-4563-a198-cd42a0b8ce06 hava a problem with the lon
+2026-10-06 16:51:01 | ERROR | alert dcf4facc-a181-4229-8ea2-55707c18354c hava no content
+2026-10-06 16:51:25 | ERROR | alert 36e64f08-98b3-4afb-9ac3-9c023d852985 hava no classification
+2026-10-06 16:51:44 | ERROR | alert e589179c-0d63-475b-be83-d0edf4fc845b hava a problem with the lon
+2026-10-06 16:51:44 | ERROR | alert 90ef6efe-4d43-4b7a-98c4-527642a906cb hava no classification
+2026-10-06 16:54:53 | ERROR | alert e17dd55b-d79f-4cf9-a8b4-96939e1440e1 hava a problem with the lon
+2026-10-06 16:55:18 | ERROR | alert 35c9bf2b-2808-4f34-99a5-86b01ad7d116 hava no status
+2026-10-06 16:55:36 | ERROR | alert 3ad9d950-1a46-4f2c-932b-cd8091c67fb7 hava no priority
+2026-10-06 16:56:32 | ERROR | alert d90dc06c-3e44-4ba4-94fa-5b2449e745b0 hava no timestamp
+2026-10-06 16:57:17 | ERROR | alert 08482cd3-320e-42cd-9e0a-e6d55af4ed56 hava no content
+2026-10-06 16:58:12 | ERROR | alert 50132d61-f3d5-4848-8e5e-9f58bfea7d3c hava a problem with the lon
+2026-10-06 16:59:23 | ERROR | alert 9aab630f-e4fc-409a-8bc5-064e781a8736 hava a problem with the lat
+2026-10-06 17:00:38 | ERROR | alert 36bb6639-aa40-4435-8327-db4b34ccd96e hava a problem with the lon
+2026-10-06 17:00:46 | ERROR | alert f942ea4b-0155-458c-a0d5-3cc95b4b422a hava no timestamp
+2026-10-06 17:01:37 | ERROR | alert 2bc26c1b-9de3-45ad-a0a9-525dc45f054b hava a problem with the lon
+2026-10-06 17:02:03 | ERROR | alert 03b84b10-8d27-4cbe-9228-46ccb5105540 hava a problem with the lat
+2026-10-06 17:02:04 | ERROR | alert 48098cd1-0530-4494-8398-b5102e574259 hava no title
+2026-10-06 17:03:44 | ERROR | alert 4c238504-d092-4a67-92f9-73f557a69629 hava a problem with the lat
+2026-10-06 17:04:30 | ERROR | alert b73d2142-05a3-4ca8-898c-68ab5bec3488 hava a problem with the lat
+2026-10-06 17:04:42 | ERROR | alert cb166ed5-d355-4ad3-8d48-448821ed0801 hava a problem with the lat
+2026-10-06 17:05:34 | ERROR | alert b5ac8c2c-ae9e-423b-9718-fb70a9888c63 hava no status
+2026-10-06 17:06:41 | ERROR | alert 24ea1cfc-71aa-4023-b796-945c68cce4bc hava a problem with the lon
+2026-10-06 17:08:09 | ERROR | alert c7727ede-5bfb-4880-8691-2bc7063af165 hava no source
+2026-10-06 17:09:47 | ERROR | alert 6abb113e-e9c0-49c9-89fb-8d85ba0516f6 hava no title
+2026-10-06 17:10:33 | ERROR | alert 8fb39dc2-dd0e-4f0f-867a-b66f42e0c066 hava no status
+2026-10-06 17:11:25 | ERROR | alert 4bdbb6a5-ecfa-4607-a868-e4636d115918 hava a problem with the lon
+2026-10-06 17:13:28 | ERROR | alert 2bcda851-a76c-45e7-953e-fa477235b538 hava a problem with the lon
+2026-10-06 17:13:59 | ERROR | alert 6bdeb6c5-a141-49a1-ab28-7aedb00f4324 hava a problem with the lat
+2026-10-06 17:14:00 | ERROR | alert 53f4497f-57b8-42ce-9189-bbb39ac57fb6 hava a problem with the lon
+2026-10-06 17:14:00 | ERROR | alert 79ca0ad2-51d8-4912-824f-b74719232f0b hava no source
+2026-10-06 17:14:00 | ERROR | alert b3425441-74c4-4511-87ca-a177a3e35d85 hava no content
+2026-10-06 17:15:30 | ERROR | alert df74d441-765e-43ff-af3a-e0ed9a9197fb hava a problem with the lat
+2026-10-06 17:15:32 | ERROR | alert bd130b9e-7195-49db-9731-1fd9a1003c2b hava a problem with the lon
+2026-10-06 17:17:01 | ERROR | alert 205610c0-f2c2-4912-a64a-a2bf19abc894 hava no timestamp
+2026-10-06 17:20:15 | ERROR | alert 0a1cbb8f-739c-4c5a-8e5d-9d103a925a11 hava a problem with the lon
+2026-10-06 17:22:43 | ERROR | alert 29917934-64b9-4e4e-8cbe-00c3f86095e7 hava no source
+2026-10-06 17:25:15 | ERROR | alert 02641fd4-edb3-4944-b19f-8b2e5bcb8f47 hava a problem with the lat
+2026-10-06 17:26:10 | ERROR | alert 99310093-4ffb-46b1-a14c-384a537b608c hava a problem with the lat
+2026-10-06 17:26:18 | ERROR | alert f78836e5-1866-40ac-a059-8b7a86389939 hava a problem with the lat
+2026-10-06 17:27:00 | ERROR | alert fcd19485-ab1f-4f5b-a3d5-a13f709aa742 hava no timestamp
+2026-10-06 17:27:02 | ERROR | alert 04ff07ae-7c2f-4a3b-a5ee-7d6fd4327c9f hava no timestamp
+2026-10-06 17:27:51 | ERROR | alert a19b8f4f-a22a-45b5-b5c2-6f37bc465e53 hava a problem with the lon
+2026-10-06 17:27:58 | ERROR | alert f0c237c5-4aa4-44a4-95a2-19a6ab52c2a3 hava no classification
+2026-10-06 17:29:24 | ERROR | alert b46ca460-7fa5-49ec-8327-a63d352b1637 hava no title
+2026-10-06 17:30:34 | ERROR | alert fa14c601-7f8e-48c6-9964-d676393760a6 hava no status
+2026-10-06 17:31:15 | ERROR | alert e327cf4b-3641-44e2-8780-7839470038c2 hava a problem with the lon
+2026-10-06 17:32:17 | ERROR | alert a864e33c-e034-4b8b-9816-0a3143c14dcd hava a problem with the lat
+2026-10-06 17:33:41 | ERROR | alert de5e721e-6c71-4985-8b71-2cb75fe7190a hava a problem with the lat
+2026-10-06 17:33:59 | ERROR | alert 16aac971-6461-435e-8aa2-b68740f0d4d3 hava no classification
+2026-10-06 17:34:35 | ERROR | alert 4b68799f-cc77-4190-be58-d5f6e6f3bb2a hava a problem with the lat
+2026-10-06 17:34:36 | ERROR | alert 2b35f8ea-5aff-4eeb-9a4a-5b7d8d8e9ed8 hava a problem with the lat
+2026-10-06 17:35:59 | ERROR | alert 365fb78d-804b-464f-98a0-d2c9e3a0f8c0 hava a problem with the lat
+2026-10-06 17:39:11 | ERROR | alert fd27dd26-80c4-40ec-95b5-f2081c0c78f9 hava a problem with the lat
+2026-10-06 17:39:17 | ERROR | alert 7527afb5-7cf4-4916-ab89-c8754c0d56b8 hava a problem with the lat
+2026-10-06 17:39:55 | ERROR | alert 065e86ef-8b22-4b50-a626-c16fa90ac96c hava a problem with the lat
+2026-10-06 17:39:55 | ERROR | alert 46bbdfa5-0240-4a4e-9619-db7600d3b60a hava a problem with the lon
+2026-10-06 17:40:18 | ERROR | alert f9447fd1-9594-4ea1-bcd1-56a96bfa8801 hava no classification
+2026-10-06 17:41:11 | ERROR | alert ebc25585-e797-4b75-a823-d223b2547313 hava a problem with the lon
+2026-10-06 17:41:34 | ERROR | alert 1afb6164-35f4-4174-9b95-044cb8c62b6b hava a problem with the lat
+2026-10-06 17:43:01 | ERROR | alert 9135746a-7d60-4366-bf13-9cd016497c93 hava no timestamp
+2026-10-06 17:45:11 | ERROR | alert a7297405-8a78-4b5a-a40d-03548cca034d hava no source
+2026-10-06 17:45:22 | ERROR | alert 69423533-8e88-4e9d-94f5-e7ffd2db826c hava a problem with the lon
+2026-10-06 17:45:24 | ERROR | alert c15f32d4-036a-4562-bb1f-7a9b83800ca2 hava a problem with the lon
+2026-10-06 17:46:36 | ERROR | alert 8893e5eb-712d-4258-86cc-3d3dcc18faef hava a problem with the lat
+2026-10-06 17:47:35 | ERROR | alert 27e62340-4547-4610-8433-de392a0e5a68 hava no classification
+2026-10-06 17:47:42 | ERROR | alert 61624343-4af6-4980-9f8b-8ffdec343f44 hava no source
+2026-10-06 17:47:52 | ERROR | alert 1396a9be-5e8c-4b8a-9da2-79c8b1773794 hava no source
+2026-10-06 17:49:30 | ERROR | alert 55442013-06c4-484a-b3e5-78989a2511f2 hava no source
+2026-10-06 17:50:14 | ERROR | alert a26b9b24-047e-46af-a23f-16526d295f74 hava a problem with the lat
+2026-10-06 17:50:32 | ERROR | alert 2aeddd0d-163f-491c-89a6-8dc5e592fbab hava a problem with the lon
+2026-10-06 17:50:42 | ERROR | alert d8e171dd-e19a-488f-b2d0-d5ea7bf26ba7 hava a problem with the lat
+2026-10-06 17:50:52 | ERROR | alert ff05dedc-cd12-43f5-b94b-9e1c9d013762 hava a problem with the lat
+2026-10-06 17:51:49 | ERROR | alert a41897bb-d55c-4ef3-b107-12f30c9793cc hava no status
+2026-10-06 17:52:01 | ERROR | alert b9fe3b3d-1686-4d98-ac0a-d6035ebb6022 hava a problem with the lat
+2026-10-06 17:52:02 | ERROR | alert b210bcef-9aad-4fe3-91ca-78d4e597ed14 hava a problem with the lon
+2026-10-06 17:54:21 | ERROR | alert 44706391-efff-4c40-8265-dcd9f0d0df3f hava a problem with the lon
+2026-10-06 17:55:25 | ERROR | alert 87f8b160-0621-4566-92d7-8dae3828f052 hava no priority
+2026-10-06 17:55:45 | ERROR | alert f3cee5fc-8910-4592-8695-129b13a97777 hava no content
+2026-10-06 17:55:46 | ERROR | alert 8a0c6d31-6208-407b-8fff-6525b69d3bd2 hava a problem with the lat
+2026-10-06 17:56:10 | ERROR | alert 7bdf0de6-c162-4f71-8a37-da1642cb2f7f hava no status

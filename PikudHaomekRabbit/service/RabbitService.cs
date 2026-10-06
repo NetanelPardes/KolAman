@@ -60,9 +60,6 @@ public class RabbitService
             catch (Exception ex)
             {
                 Console.WriteLine($"Save failed: {ex.Message}");
-
-                await Task.Delay(10);
-
                 await channel.BasicNackAsync(e.DeliveryTag, false, true);
             }
         };

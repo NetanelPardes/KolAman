@@ -11,7 +11,7 @@ public class MongoService
     {
         var client = new MongoClient(connection);
         var database = client.GetDatabase("kolaman");
-        _collection = database.GetCollection<Alert>("south");
+        _collection = database.GetCollection<Alert>("alertsDb");
     }
     public async Task SaveAsync(Alert alert)
     {

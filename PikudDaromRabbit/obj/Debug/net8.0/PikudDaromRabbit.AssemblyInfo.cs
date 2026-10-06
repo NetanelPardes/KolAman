@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PikudDaromRabbit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2551c158e8b7afd9d1ba57a39c3a3ad8b6752635")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2981c04e712776026d66b515dd41948a9e1e27e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PikudDaromRabbit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PikudDaromRabbit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
